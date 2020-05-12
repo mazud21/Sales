@@ -84,7 +84,7 @@ class Api_Sales_c extends RestController {
         } else {
             $this->response([
                 'status' => false,
-                'data' => 'Gagal ubah Sales'
+                'message' => 'Gagal ubah Sales'
             ], RestController::HTTP_BAD_REQUEST);
         }
     }
